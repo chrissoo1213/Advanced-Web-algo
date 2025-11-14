@@ -1,4 +1,4 @@
-import song from '../models/songs.js'
+import song from '../models/song.js'
 
 // Get all users
 export const getAllsongs = () => {

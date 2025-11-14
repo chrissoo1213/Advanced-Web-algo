@@ -30,7 +30,7 @@ export const initializeDatabase = async () => {
 	console.log('🔧 Initializing database...')
 	
 	// Import models
-	const song = (await import('../models/songs.js')).default
+	const song = (await import('../models/song.js')).default
 	
 	// Create tables
 	song.createTable()
